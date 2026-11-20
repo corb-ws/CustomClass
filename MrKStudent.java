@@ -9,7 +9,7 @@ public class MrKStudent {
       
       
    }
-   public void StudentActivity() {
+   public void MrKStudent() {
       name = "Yousif";
       period = 4;
       GPA = 1.3;
@@ -28,8 +28,9 @@ public class MrKStudent {
    public void goodScore(double differenceAfter) {
       //Changes GPA after good score
    }
-   public void completesYear() {
+   public int completesYear() {
       //Adds one to grade
+      return grade;
    }
    public void seatingChange() {
       //changes seatNum
